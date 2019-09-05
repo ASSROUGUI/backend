@@ -54,7 +54,7 @@ app.delete('/products/:id', (req, res) => {
 
 
 // Products SEED ROUTE
-app.get('/products/seed', (req, res) => {
+app.get('/product/seed', (req, res) => {
     Product.insertMany([
     {
       name: 'T_shirt',
